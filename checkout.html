@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Indigo Flow Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar"> <!-- sama --> </header>
+
+  <section class="container section">
+    <h2 class="section-title">Checkout</h2>
+    <div class="checkout-wrap">
+      <form id="checkoutForm">
+        <h3>Data Pemesan</h3>
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="tel" placeholder="No. WhatsApp" required>
+        <textarea placeholder="Alamat Lengkap" required></textarea>
+        <h3>Ringkasan Pesanan</h3>
+        <div id="checkoutSummary"></div>
+        <button type="submit" class="btn btn-primary full">Order via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer"> <!-- sama --> </footer>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
